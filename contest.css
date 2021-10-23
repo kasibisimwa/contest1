@@ -1,0 +1,127 @@
+body{
+	font-family: Arial, Helvetica,sans-serif;
+	font-size: 15px;
+	align-height: 1.5;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+
+}
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+header{
+	background-color: #35424a;
+	color: yellow;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #e8491d 3px solid;
+}
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 20px;
+}
+header ul{
+	padding: 0;
+	margin: 0;
+} 
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+header #branding{
+	float: left;
+}
+header #branding h1{
+	margin: 0;
+}
+header nav{
+	float: right;
+	margin-top: 2px;
+
+}
+#showcase{
+	min-height: 400px;
+	background:url('mwabo.jpeg');
+	text-align: center;
+	color: white;
+	padding-top: 5px;
+
+}
+#showcase h1{
+	margin-top: 55px;
+	font-size: 40px;
+	margin-bottom: 10px;
+	text-align: center;
+	padding-bottom: 50px;
+	padding-top: 100px;
+}
+#Bintumwabo{
+	padding: 20px;
+	color: #ffffff;
+	background-color: #35424a;
+}
+#Bintumwabo h1{
+	float: left;
+}
+#Bintumwabo form{
+	float: right;
+	margin-top: 15px;
+}
+
+.box{
+	margin: 0;
+	padding: 0;
+	font-size: 100px;
+}
+
+#left{
+	background-color: skyblue;
+	float: right;
+	padding-left: 250px;
+	text-orientation: 200px;
+
+}
+#left h3{
+	font-size: 30px;
+	text-align: left;
+}
+#left p{
+	float: right;
+	font-size: 20px;
+}
+
+#right {
+	background-color: yellowgreen;
+	float: right;
+	padding-left: 250px;
+	
+}
+#right h3{
+font-size: 30px;
+	text-align: left;	
+}
+#right p{
+float: left;
+	font-size: 20px;
+}
+img{
+	border-radius: 50%;
+	float: left;
+}
+#section{
+	display: flex;
+}
+footer{
+	padding: 20px;
+	color: #ffffff;
+	background-color: black;
+	text-align: center;
+	padding-top: 10px;
+}
+
